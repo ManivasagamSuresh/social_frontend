@@ -3,7 +3,31 @@ import "./Home.scss"
 
 function Home() {
   return (
-    <div className='Home'>home</div>
+    <div className='Home'><h1>hello</h1>
+    <h1>hello</h1>
+
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>    
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    
+    </div>
+    
   )
 }
 

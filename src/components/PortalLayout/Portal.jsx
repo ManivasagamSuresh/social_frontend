@@ -9,10 +9,11 @@ function Portal() {
     
     <>
     <Navbar/>
+    <div className='portal' style={{display:"flex"}}>
     <Leftbar/>
     <Outlet/>
     <Rightbar/>
-    
+    </div>
     </>
   )
 }
