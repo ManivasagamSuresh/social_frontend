@@ -90,6 +90,38 @@ function Rightbar() {
               </div>            
             </div>
 
+            <div className="user">
+              <div className="userInfo">
+                <img src="https://www.shutterstock.com/image-photo/fashion-model-woman-colorful-bright-260nw-1084791122.jpg" alt="" />
+                <div className='online'/>
+                <span>bakya </span>                
+              </div>            
+            </div>
+
+            <div className="user">
+              <div className="userInfo">
+                <img src="https://www.shutterstock.com/image-photo/fashion-model-woman-colorful-bright-260nw-1084791122.jpg" alt="" />
+                <div className='online'/>
+                <span>bakya </span>                
+              </div>            
+            </div>
+
+            <div className="user">
+              <div className="userInfo">
+                <img src="https://www.shutterstock.com/image-photo/fashion-model-woman-colorful-bright-260nw-1084791122.jpg" alt="" />
+                <div className='online'/>
+                <span>bakya </span>                
+              </div>            
+            </div>
+
+            <div className="user">
+              <div className="userInfo">
+                <img src="https://www.shutterstock.com/image-photo/fashion-model-woman-colorful-bright-260nw-1084791122.jpg" alt="" />
+                <div className='online'/>
+                <span>bakya </span>                
+              </div>            
+            </div>
+
           </div>
       </div>
     </div>

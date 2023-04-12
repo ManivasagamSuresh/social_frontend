@@ -6,9 +6,11 @@ import Login from './components/Login/Login';
 import Profile from './components/Profile/Profile';
 import Register from './components/Register/Register';
 import Portal from './components/PortalLayout/Portal';
+import { useContext } from 'react';
+import { AuthContext, AuthContextProvider } from './context/authContext';
 
 function App() {
-  const currentUser = true;
+  const {currentUser} = useContext(AuthContext);
 
   const ProtectedRoute = ({children})=>{
     if(!currentUser){
