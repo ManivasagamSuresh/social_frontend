@@ -22,8 +22,10 @@ function Stories() {
     id:1,
     name:"bakya m",
     img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU"
-  }
+  },
+  
 ]
+
   return (
     <div className='stories'>
       <div className="story">

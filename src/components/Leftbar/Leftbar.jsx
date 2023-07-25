@@ -1,6 +1,14 @@
 import React, { useContext } from 'react'
 import "./Leftbar.scss"
 import { AuthContext } from '../../context/authContext'
+import frnd from "../../assets/friend.png"
+import grp from "../../assets/2.png"
+import marketplace from "../../assets/3.png"
+import watch from "../../assets/4.png"
+import events from "../../assets/6.png"
+import gaming from "../../assets/7.png"
+import msgs from "../../assets/10.png"
+
 
 function Leftbar() {
   const {currentUser} = useContext(AuthContext);
@@ -13,19 +21,19 @@ function Leftbar() {
           <span>{currentUser.name}</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={frnd} alt="" />
             <span>Friends</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={grp} alt="" />
             <span>Group</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={marketplace} alt="" />
             <span>Marketplace</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={watch} alt="" />
             <span>Watch</span>
           </div>
         </div>
@@ -34,15 +42,15 @@ function Leftbar() {
           
           <span>Your Shortcuts</span>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={events} alt="" />
             <span>Events</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={gaming} alt="" />
             <span>Gaming</span>
           </div>
           <div className='item'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvaZNpjULbfl6deEvyV3nPzWs9l9383OcKg&usqp=CAU" alt="" />
+            <img src={msgs} alt="" />
             <span> Messages</span>
           </div>
           

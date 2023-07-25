@@ -7,8 +7,11 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IoIosNotifications } from "react-icons/io";
+import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
+
+
 
 function Navbar() {
   const {currentUser}=useContext(AuthContext);

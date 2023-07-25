@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import "./Login.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 
 function Login() {
+  const navigate = useNavigate();
   const {login} =useContext(AuthContext)
   const handleLogin = ()=>{
-    login();
+    login()
+    navigate("/")
   }
   return (
     <div className="Login">
